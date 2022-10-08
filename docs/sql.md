@@ -24,7 +24,7 @@ CREATE TABLE `users` (
 
 ### 创建 `admin` 用户
 ```sql
-insert into users(name, password) values ('admin', 'a66abb5684c45962d887564f08346e8d');
+INSERT INTO `gopixiu`.`users`(`id`, `gmt_create`, `gmt_modified`, `resource_version`, `name`, `password`, `email`, `status`, `role`, `description`, `extension`) VALUES (21220801, '2022-10-08 18:25:58', '2022-10-08 18:25:58', 0, 'gopixiu', '$2a$10$KsAmVnOI7lzOZwyC8A9bvujTcLqsR7p01qgPmT1cpN6V7Au6OtAKC', '', 0, '', '', '');
 ```
 
 ## 创建 `roles` 表
